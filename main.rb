@@ -9,4 +9,13 @@ require './filters'
 
 # binding.pry
 
-pp @candidates
+# pp @candidates
+
+puts "Has experience candidate with id 7?"
+puts experienced?(@candidates[1])
+puts "Find candidate with id 7"
+pp find(7)
+puts "Find qualified candidates"
+pp qualified_candidates()
+puts "Sort candidates by qualifications"
+pp ordered_by_qualifications()
